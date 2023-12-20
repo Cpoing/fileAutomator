@@ -3,7 +3,7 @@ from os.path import isfile, join
 import os
 import shutil
 
-file_path = '/Users/tedlee/Downloads'
+file_path = input("Path: ")
 
 files = [
     f for f in listdir(file_path)
